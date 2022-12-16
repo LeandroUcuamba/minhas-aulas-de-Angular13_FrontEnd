@@ -1,0 +1,10 @@
+<div class="class">
+   <h2>Two way data binding</h2>
+   <form>
+      <input type="text" [(ngModel)]="named"
+      name="name"
+      placeholder="Digite o seu nome" >
+      <input type="submit" value="Enviar">
+   </form>
+   <p>O nome é: {{ named }}</p>
+</div>
